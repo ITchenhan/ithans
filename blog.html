@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客 - IT·陈寒</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">IT·陈寒</a>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">首页</a></li>
+                <li><a href="blog.html" class="nav-link active">博客</a></li>
+                <li><a href="projects.html" class="nav-link">项目</a></li>
+                <li><a href="about.html" class="nav-link">关于</a></li>
+                <li><a href="contact.html" class="nav-link">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 博客头部 -->
+    <header class="blog-header">
+        <div class="container">
+            <h1>技术博客</h1>
+            <p>分享技术见解，记录学习心得</p>
+        </div>
+    </header>
+
+    <!-- 博客分类和搜索 -->
+    <section class="blog-filters">
+        <div class="container">
+            <div class="filters-wrapper">
+                <div class="categories">
+                    <button class="category active">全部</button>
+                    <button class="category">前端开发</button>
+                    <button class="category">后端开发</button>
+                    <button class="category">DevOps</button>
+                    <button class="category">架构设计</button>
+                </div>
+                <div class="search-box">
+                    <input type="text" placeholder="搜索文章...">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 博客文章列表 -->
+    <section class="blog-list">
+        <div class="container">
+            <div class="articles">
+                <!-- 文章卡片 -->
+                <article class="blog-card">
+                    <div class="blog-card-image">
+                        <img src="./images/blog/frontend-toolchain.jpg" alt="文章配图">
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-card-meta">
+                            <span class="date">2024-03-15</span>
+                            <span class="category">前端开发</span>
+                        </div>
+                        <h2>现代前端开发工具链指南</h2>
+                        <p>探讨现代前端开发中常用的工具和技术栈，包括构建工具、测试框架和部署策略...</p>
+                        <a href="./post.html?path=2024/03/frontend-toolchain.md" class="read-more">阅读全文 →</a>
+                    </div>
+                </article>
+                <!-- 更多文章卡片 -->
+            </div>
+
+            <!-- 分页 -->
+            <div class="pagination">
+                <button class="prev">上一页</button>
+                <div class="page-numbers">
+                    <span class="active">1</span>
+                    <span>2</span>
+                    <span>3</span>
+                </div>
+                <button class="next">下一页</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- 社交媒体链接 -->
+                <div class="footer-section">
+                    <h3>社交媒体</h3>
+                    <ul>
+                        <li>
+                            <a href="https://ithan.blog.csdn.net" target="_blank">
+                                <i class="fab fa-blogger"></i> CSDN
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 快速链接 -->
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul>
+                        <li>
+                            <a href="https://gitee.com/ithanc" target="_blank">
+                                <i class="fab fa-git-alt"></i> GitEE
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ITchenhan" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 联系信息 -->
+                <div class="footer-section">
+                    <h3>联系方式</h3>
+                    <p><i class="fas fa-envelope"></i> 邮箱：lovefun2024@yeah.net</p>
+                    <p><i class="fab fa-weixin"></i> 微信：LOVEcoco666</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> IT·陈寒. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html> 

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文章标题 - IT·陈寒的博客</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/post.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- 添加 Markdown 样式支持 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+    <!-- 添加代码高亮支持 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+    <!-- 添加 marked.js -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- 添加 highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    <!-- 添加 Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">IT·陈寒</a>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">首页</a></li>
+                <li><a href="blog.html" class="nav-link active">博客</a></li>
+                <li><a href="projects.html" class="nav-link">项目</a></li>
+                <li><a href="about.html" class="nav-link">关于</a></li>
+                <li><a href="contact.html" class="nav-link">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 文章内容 -->
+    <article class="post-content">
+        <div class="container">
+            <header class="post-header">
+                <div class="post-meta">
+                    <span class="post-date">发布日期</span>
+                    <span class="post-category">分类</span>
+                </div>
+                <h1 class="post-title">文章标题</h1>
+                <div class="post-tags"></div>
+            </header>
+            
+            <div class="markdown-body">
+                <!-- Markdown 内容将被插入这里 -->
+            </div>
+
+            <footer class="post-footer">
+                <div class="post-nav">
+                    <a href="#" class="post-nav-prev">← 上一篇：文章标题</a>
+                    <a href="#" class="post-nav-next">下一篇：文章标题 →</a>
+                </div>
+            </footer>
+        </div>
+    </article>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <!-- 页脚内容与其他页面相同 -->
+    </footer>
+
+    <!-- 引入 Markdown 解析器和代码高亮 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/post.js"></script>
+</body>
+</html> 

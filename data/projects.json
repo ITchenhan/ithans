@@ -1,0 +1,14 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "个人博客系统",
+            "description": "基于 Next.js 和 TailwindCSS 构建的现代化博客系统，支持 Markdown 文章编写和自动部署。",
+            "image": "images/projects/project1.jpg",
+            "techStack": ["React", "Next.js", "TailwindCSS"],
+            "demoUrl": "https://demo.example.com",
+            "githubUrl": "https://github.com/yourusername/project1"
+        },
+        // 更多项目...
+    ]
+} 

@@ -1,0 +1,162 @@
+.contact-section {
+    padding: 120px 0 60px;
+    background: linear-gradient(135deg, #6366f1, #3b82f6);
+    min-height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+}
+
+.contact-wrapper {
+    background: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    padding: 3rem;
+    background: #f8fafc;
+}
+
+.contact-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.contact-info .lead {
+    font-size: 1.25rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.info-items {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.info-item {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.info-item img {
+    width: 24px;
+    height: 24px;
+}
+
+.info-item h3 {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.info-item p {
+    color: #666;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-links a {
+    color: #6366f1;
+    text-decoration: none;
+}
+
+.contact-form {
+    padding: 3rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 1rem;
+    background: #6366f1;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background: #4f46e5;
+}
+
+@media (max-width: 768px) {
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-info,
+    .contact-form {
+        padding: 2rem;
+    }
+
+    .contact-info h1 {
+        font-size: 2rem;
+    }
+}
+
+/* 二维码样式 */
+.qr-codes {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.qr-code-item {
+    text-align: center;
+}
+
+.qr-code-item img {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+}
+
+.qr-code-item p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .qr-codes {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+} 

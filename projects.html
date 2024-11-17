@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>项目展示 - IT·陈寒</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">IT·陈寒</a>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">首页</a></li>
+                <li><a href="blog.html" class="nav-link">博客</a></li>
+                <li><a href="projects.html" class="nav-link active">项目</a></li>
+                <li><a href="about.html" class="nav-link">关于</a></li>
+                <li><a href="contact.html" class="nav-link">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 项目展示头部 -->
+    <header class="projects-header">
+        <div class="container">
+            <h1>项目展示</h1>
+            <p>探索我的作品集</p>
+        </div>
+    </header>
+
+    <!-- 项目列表 -->
+    <section class="projects-grid">
+        <div class="container">
+            <!-- 项目卡片 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/projects/project1.jpg" alt="项目截图">
+                </div>
+                <div class="project-content">
+                    <h2>个人博客系统</h2>
+                    <p class="project-description">
+                        基于 Next.js 和 TailwindCSS 构建的现代化博客系统，支持 Markdown 文章编写和自动部署。
+                    </p>
+                    <div class="tech-stack">
+                        <span>React</span>
+                        <span>Next.js</span>
+                        <span>TailwindCSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="demo-link">在线演示</a>
+                        <a href="#" class="github-link">
+                            <img src="images/github.svg" alt="GitHub">
+                            查看代码
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 更多项目卡片 -->
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- 社交媒体链接 -->
+                <div class="footer-section">
+                    <h3>社交媒体</h3>
+                    <ul>
+                        <li>
+                            <a href="https://ithan.blog.csdn.net" target="_blank">
+                                <i class="fab fa-blogger"></i> CSDN
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 快速链接 -->
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul>
+                        <li>
+                            <a href="https://gitee.com/ithanc" target="_blank">
+                                <i class="fab fa-git-alt"></i> GitEE
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ITchenhan" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 联系信息 -->
+                <div class="footer-section">
+                    <h3>联系方式</h3>
+                    <p><i class="fas fa-envelope"></i> 邮箱：lovefun2024@yeah.net</p>
+                    <p><i class="fab fa-weixin"></i> 微信：LOVEcoco666</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> IT·陈寒. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/projects.js"></script>
+</body>
+</html> 

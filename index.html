@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 引入 Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">IT·陈寒</a>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link active">首页</a></li>
+                <li><a href="blog.html" class="nav-link">博客</a></li>
+                <li><a href="projects.html" class="nav-link">项目</a></li>
+                <li><a href="about.html" class="nav-link">关于</a></li>
+                <li><a href="contact.html" class="nav-link">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero 区域 -->
+    <section class="hero">
+        <div class="container">
+            <h1>你好，我是 <span class="highlight">IT·陈寒</span></h1>
+            <p class="subtitle">开发工程师 & 技术博主</p>
+            <p class="description">专注于构建优秀的用户体验和高性能的应用程序</p>
+            <div class="cta-buttons">
+                <a href="./projects.html" class="btn btn-primary">查看项目</a>
+                <a href="./contact.html" class="btn btn-outline">联系我</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 快速访问卡片 -->
+    <section class="quick-access">
+        <div class="container">
+            <h2>快速访问</h2>
+            <div class="cards">
+                <!-- 最新博客卡片 -->
+                <div class="card">
+                    <h3>最新博客</h3>
+                    <p>查看我最新发布的技术文章和心得分享</p>
+                    <a href="./blog.html" class="card-link">阅读更多 →</a>
+                </div>
+
+                <!-- 精选项目卡片 -->
+                <div class="card">
+                    <h3>精选项目</h3>
+                    <p>浏览我的代表作品和技术解决方案</p>
+                    <a href="./projects.html" class="card-link">查看项目 →</a>
+                </div>
+
+                <!-- 关于我卡片 -->
+                <div class="card">
+                    <h3>关于我</h3>
+                    <p>了解我的技术栈、经历和个人兴趣</p>
+                    <a href="./about.html" class="card-link">了解更多 →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- 社交媒体链接 -->
+                <div class="footer-section">
+                    <h3>社交媒体</h3>
+                    <ul>
+                        <li>
+                            <a href="https://ithan.blog.csdn.net" target="_blank">
+                                <i class="fab fa-blogger"></i> CSDN
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 快速链接 -->
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul>
+                        <li>
+                            <a href="https://gitee.com/ithanc" target="_blank">
+                                <i class="fab fa-git-alt"></i> GitEE
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ITchenhan" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 联系信息 -->
+                <div class="footer-section">
+                    <h3>联系方式</h3>
+                    <p><i class="fas fa-envelope"></i> 邮箱：lovefun2024@yeah.net</p>
+                    <p><i class="fab fa-weixin"></i> 微信：LOVEcoco666</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> IT·陈寒. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
